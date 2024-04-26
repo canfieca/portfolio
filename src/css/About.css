@@ -1,0 +1,28 @@
+/* About Me */
+.about-me {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 905px;
+}
+
+
+/* Creative and user-focused front-end developer with 3+ years of experience building responsive web applications using React. Passionate about crafting seamless UI/UX through a sharp eye for design and intuition for enhancing user satisfaction. Continuously seek new frameworks and technologies to create more adaptive and human-centered interfaces. Leverage strong collaboration skills and attention to detail to transform product visions into intuitive front-end experiences. Seeking a role that provides opportunities to showcase full-stack development capabilities from conception to execution, as well as lead projects that prioritize innovative and accessible design. Known by peers as a problem-solver who balances perfectionism with pragmatism to achieve optimal solutions on tight deadlines. With a lifelong fascination for technology and aptitude for putting users first, excited to grow technical and interpersonal skills to build the front-end of the future in a quality-driven team. */
+.body-para {
+    position: absolute;
+    width: 1092px;
+    height: 624px;
+    left: 200px;
+    top: 94px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 39px;
+    text-align: right;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
