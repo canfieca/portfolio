@@ -1,0 +1,55 @@
+/* Navbar */
+.navbar {
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: rgba(33, 33, 33, 0.7);
+    border: 1px solid #000000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari */
+}
+
+@supports not (backdrop-filter: blur(10px)) {
+    .navbar {
+      background: rgba(33, 33, 33, 0.9); /* Fallback for browsers that don't support backdrop-filter */
+    }
+  }
+
+/* Navigation Sections */
+.nav-topics {
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    width: 50vw;
+    transform: translateX(50%);
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-topics li {
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 32px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    padding: 0 1rem;
+}
+
+/* Cameron Canfield */
+#myName {
+    position: absolute;
+    left: 25px;
+    transform: translateY(-50%);
+
+
+    font-family: 'Italianno';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+
+    color: #FFFFFF;
+}
