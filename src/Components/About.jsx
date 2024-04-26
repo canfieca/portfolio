@@ -1,3 +1,6 @@
+import '../css/About.css'
+
+
 export default function About() {
     return (
         <div className="about-me">
@@ -7,7 +10,8 @@ export default function About() {
                 design and intuition for enhancing user satisfaction. Continuously seek new frameworks and 
                 technologies to create more adaptive and human-centered interfaces. Leverage strong collaboration 
                 skills and attention to detail to transform product visions into intuitive front-end experiences. 
-
+            <br />
+            < br />
                 Seeking a role that provides opportunities to showcase full-stack development capabilities from 
                 conception to execution, as well as lead projects that prioritize innovative and accessible design. 
                 Known by peers as a problem-solver who balances perfectionism with pragmatism to achieve optimal 
