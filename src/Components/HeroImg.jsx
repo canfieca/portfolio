@@ -1,10 +1,13 @@
 import '../css/HeroImg.css'
 import CurvedText from 'react-curved-text'
+import Bitmoji from '../Assets/hi.png'
 
 export default function HeroImg() {
 
     return (
-        <section>
+        <section className='hero-section'>
+
+
             <CurvedText
                 width='1000'
                 height='1000'
@@ -21,6 +24,8 @@ export default function HeroImg() {
                 ellipseProps={null}
                 svgProps={null}
             />
+            
+            <img src={Bitmoji} alt='hi' className='hero-img' />
         </section>
     )
 }
